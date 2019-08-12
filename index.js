@@ -24,3 +24,9 @@
 // Sixth Exercise
     let comp = true;
     console.log("John is older than Mark: "+ comp);
+// Seventh Exercise
+    let a = 3;
+    let b = 4;
+    let c = 5;
+    console.log("Is a === b :"+ (a===b) + " Is b === c :"+ (b===c) + " Is a ===c :"+ (a===c));
+    console.log("The type of this check is --> "+ typeof((a===b)&&(b===c)&&(a===c)));
