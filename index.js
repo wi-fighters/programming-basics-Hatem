@@ -4,8 +4,10 @@
     console.log(firstName, lastName);
 // Second Exercise
     let name = "Natalia";
-    let Nationality = "Russia";
+    let nationality = "Russia";
     let favoriteColor = "green";
-    let Job = "JuniorProgrammer";
+    let job = "Junior developer";
     let age = 33;
-    console.log(name, Nationality, favoriteColor, Job, age);
+    console.log(name, nationality, favoriteColor, job, age);
+// Third Exercise
+    console.log("I am "+ name+ " and I am from "+nationality+" .I work now as a "+job+" .I am "+age+" years old and my favorite color is "+favoriteColor+".");
