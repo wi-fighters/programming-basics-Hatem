@@ -17,3 +17,7 @@
     let car = ""; // I think it is also a string
     let isOpen = true; // I think it is a boolean
     console.log("length is a "+typeof length+" ,surname is a "+typeof surname+" ,car is a "+typeof car+" ,and isOpen is a "+typeof isOpen);
+// Fifth Exercise
+    let ageMark = "31";
+    let ageJohn = 32 ;
+    console.log("ageMark is a "+typeof ageMark+" , and ageJohn is a "+typeof ageJohn);
