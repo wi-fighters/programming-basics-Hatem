@@ -34,3 +34,7 @@
     let programmingLanguage = "JavaScript";
     let isFun = true;
     console.log(programmingLanguage + " is fun:" +isFun);
+//Ninth Exercise
+    let test;
+    console.log(typeof(test));
+    console.log("the type of the test is undefined because we need to assign a value otherwise it will still undefined.");
