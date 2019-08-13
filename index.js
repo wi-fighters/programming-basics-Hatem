@@ -30,3 +30,7 @@
     let c = 5;
     console.log("Is a === b :"+ (a===b) + " Is b === c :"+ (b===c) + " Is a ===c :"+ (a===c));
     console.log("The type of this check is --> "+ typeof((a===b)&&(b===c)&&(a===c)));
+//Eighth Exercise
+    let programmingLanguage = "JavaScript";
+    let isFun = true;
+    console.log(programmingLanguage + " is fun:" +isFun);
