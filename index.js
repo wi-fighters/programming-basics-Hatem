@@ -21,52 +21,52 @@
 
     let calculation = [(2*4) / (4-2)] + [(6/3) * (5-2)];
 
-// Vars & console.log() 
+// 1. Vars & console.log() 
    
     console.log(firstName, lastName);
     console.log("---------------------------------------------------------------------------------------------------------");
 
-// Variable Info!
+// 2. Variable Info!
     
     console.log(name, nationality, favoriteColor, job, age);
     console.log("---------------------------------------------------------------------------------------------------------");
 
-// Concatenation
+// 3. Concatenation
 
     console.log("I am "+ name+ " and I am from "+nationality+" .I work now as a "+job+" .I am "+age+" years old and my favorite color is "+favoriteColor+".");
     console.log("---------------------------------------------------------------------------------------------------------");
 
-// Data Types
+// 4. Data Types
    
     console.log("length is a "+typeof length+" ,surname is a "+typeof surname+" ,car is a "+typeof car+" ,and isOpen is a "+typeof isOpen);
     console.log("---------------------------------------------------------------------------------------------------------");
 
-// Number Vars
+// 5. Number Vars
     
     console.log("ageMark is a "+typeof ageMark+" , and ageJohn is a "+typeof ageJohn);
     console.log("---------------------------------------------------------------------------------------------------------");
 
-// Who's older?
+// 6. Who's older?
 
     console.log("John is older than Mark: "+ ageTest); //ask
     console.log("---------------------------------------------------------------------------------------------------------");
 
-// Compare and contrast
+// 7. Compare and contrast
    
     console.log("Is a === b :"+ (a===b) + " Is b === c :"+ (b===c) + " Is a ===c :"+ (a===c));
     console.log("The type of this check is --> "+ typeof((a===b)&&(b===c)&&(a===c))); //ask
     console.log("---------------------------------------------------------------------------------------------------------");
 
-// isFun?
+// 8. isFun?
    
     console.log(programmingLanguage + " is fun:" +isFun);
     console.log("---------------------------------------------------------------------------------------------------------");
 
-// What type is it?
+// 9. What type is it?
     
     console.log(typeof(test) + "---> the type of the test is undefined because we need to assign a value otherwise it will still undefined.");
     console.log("---------------------------------------------------------------------------------------------------------");
 
-// Calculation!
+// 10. Calculation!
    
     console.log("Calculation = "+ calculation);
