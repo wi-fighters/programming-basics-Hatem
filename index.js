@@ -38,3 +38,6 @@
     let test;
     console.log(typeof(test));
     console.log("the type of the test is undefined because we need to assign a value otherwise it will still undefined.");
+//Tenth Exercise
+    let calculation = [(2*4) / (4-2)] + [(6/3) * (5-2)];
+    console.log("Calculation = "+ calculation);
