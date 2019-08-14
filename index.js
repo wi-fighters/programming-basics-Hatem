@@ -67,6 +67,6 @@
     console.log(typeof(test) + "---> the type of the test is undefined because we need to assign a value otherwise it will still undefined.");
     console.log("---------------------------------------------------------------------------------------------------------");
 
-// 10. Calculation!
+// 10.Calculation!
    
     console.log("Calculation = "+ calculation);
