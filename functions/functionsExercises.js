@@ -100,13 +100,12 @@ console.log(calcCircumfrence(4), calcArea(4));
 
 // last
 function celsiusToFahrenheit(celsius) {
-  const convertedTemp = ((celsius * 9) / 5) + 32;
-  return ${ celsius } °C is ${ convertedTemp } °F.
+  const convertedTemp = (celsius * 9) / 5 + 32;
+  return `${celsius}°C is ${convertedTemp}°F.`;
 }
 console.log(celsiusToFahrenheit(20));
 function fahrenheitToCelsius(fahrenheit) {
   const convertedTemp = ((fahrenheit - 32) * 5) / 9;
-  return ${ fahrenheit } °F is ${ convertedTemp } °C.
+  return `${fahrenheit} °F is ${convertedTemp} °C.`;
 }
 console.log(fahrenheitToCelsius(40));
-
