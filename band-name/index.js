@@ -1,23 +1,9 @@
-function generateBandName(clothingColour, lastFoodEaten) {
-  const bandName = `${capitalizeColor(clothingColour)}${capitalizeFood(
-    lastFoodEaten
-  )} `;
-
-  return bandName;
-}
-function capitalizeColor(clothingColour) {
-  const firstInitialUpperCase = clothingColour[0].toUpperCase();
-  const newColourString = `The ${firstInitialUpperCase}${clothingColour
+function capitalizeInitial(rawString) {
+  const firstInitialUpperCase = rawString[0].toUpperCase();
+  const bandName = `${firstInitialUpperCase}${rawString
     .substring(1)
     .toLowerCase()}`;
-  return newColourString;
+  return bandName;
 }
-function capitalizeFood(lastFoodEaten) {
-  const secondInitialUpperCase = lastFoodEaten[0].toUpperCase();
-  const newFoodString = ` ${secondInitialUpperCase}${lastFoodEaten
-    .substring(1)
-    .toLowerCase()}!`;
-  return newFoodString;
-}
-const globalArr = generateBandName("wHite", "chiliCONcarne");
-console.log(globalArr);
+console.log(capitalizeInitial("WhIte"), capitalizeInitial("ChiliConcarne"));
+//console.log();
