@@ -8,6 +8,6 @@ function generateBandName(clothingColour, lastFoodEaten) {
     .toLowerCase()} ${secondInitialUpperCase}${lastFoodEaten
     .substring(1)
     .toLowerCase()}!`;
-  return bandName;
+  
 }
 console.log(generateBandName("wHite", "chiliCONcarne"));
