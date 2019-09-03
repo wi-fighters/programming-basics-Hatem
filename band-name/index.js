@@ -1,10 +1,8 @@
-function generateBandName(clothingColour, lastFoodEaten) {
-  const firstInitialUpperCase = clothingColour[0].toUpperCase();
-  const secondInitialUpperCase = lastFoodEaten[0].toUpperCase();
-  return `The ${firstInitialUpperCase}${clothingColour
+function capitalizeInitial(rawString) {
+  const firstInitialUpperCase = rawString[0].toUpperCase();
+  const bandName = `${firstInitialUpperCase}${rawString
     .substring(1)
-    .toLowerCase()} ${secondInitialUpperCase}${lastFoodEaten
-    .substring(1)
-    .toLowerCase()}!`;
+    .toLowerCase()}`;
+  return bandName;
 }
-console.log(generateBandName("wHite", "chiliCONcarne"));
+console.log(capitalizeInitial("WhIte"), capitalizeInitial("ChiliConcarne"));
