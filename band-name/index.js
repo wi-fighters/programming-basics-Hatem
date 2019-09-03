@@ -10,4 +10,4 @@ function generateBandName(clothingColour, lastFoodEaten) {
     .toLowerCase()}!`;
   
 }
-console.log(generateBandName("wHite", "chiliCONcarne"));
+console.log(generateBandName("wHite", "chiliCONCarne"));
