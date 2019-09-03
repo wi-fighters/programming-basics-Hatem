@@ -6,4 +6,4 @@ function capitalizeInitial(rawString) {
   return bandName;
 }
 console.log(capitalizeInitial("WhIte"), capitalizeInitial("ChiliConcarne"));
-//console.log();
+
