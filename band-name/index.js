@@ -1,3 +1,4 @@
+
 const globalArr = [];
 
 function generateBandName(clothingColour, lastFoodEaten) {
@@ -10,8 +11,19 @@ function generateBandName(clothingColour, lastFoodEaten) {
     .substring(1)
     .toLowerCase()}!`;
   globalArr.push(bandName);
-  //console.log(globalArr);
+
   return bandName;
 }
 
 console.log(generateBandName("whitE", "burger"));
+
+function capitalizeInitial(rawString) {
+  const firstInitialUpperCase = rawString[0].toUpperCase();
+  const bandName = `${firstInitialUpperCase}${rawString
+    .substring(1)
+    .toLowerCase()}`;
+  return bandName;
+}
+console.log(capitalizeInitial("WhIte"), capitalizeInitial("ChiliConcarne"));
+
+
