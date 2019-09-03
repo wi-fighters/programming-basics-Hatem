@@ -19,5 +19,5 @@ function capitalizeFood(lastFoodEaten) {
     .toLowerCase()}!`;
   return newFoodString;
 }
-const globalArr = generateBandName("wHite", "chiliCONcarne");
-console.log(globalArr);
+console.log(generateBandName("wHite", "chiliCONcarne"));
+
