@@ -1,4 +1,3 @@
-
 const globalArr = [];
 
 function generateBandName(clothingColour, lastFoodEaten) {
@@ -16,6 +15,5 @@ function generateBandName(clothingColour, lastFoodEaten) {
 }
 
 console.log(generateBandName("whitE", "burger"));
-
-
-
+generateBandName("black", "hotdogs");
+console.log(globalArr);
