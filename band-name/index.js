@@ -19,4 +19,4 @@ function capitalizeFood(lastFoodEaten) {
     .toLowerCase()}!`;
   return newFoodString;
 }
-console.log(generateBandName("wHite", "chiliCONcarne")); ////
+console.log(generateBandName("wHite", "chiliCONcarne"));
