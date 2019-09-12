@@ -1,11 +1,11 @@
-function init() {
+let init = () => {
   let db = [];
-  function create(element) {
+  let create = element => {
     db.push(element);
     return db.length;
-  }
+  };
   return create;
-}
+};
 const createInDb = init();
 console.log(createInDb("Hatem"));
 console.log(createInDb("Lubna"));
