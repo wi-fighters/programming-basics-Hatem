@@ -1,12 +1,19 @@
-let init = () => {
+const init = () => {
   let db = [];
-  let create = element => {
+  let api = [];
+  const create = element => {
     db.push(element);
+    console.log("contents of db:");
+    console.log(db);
     return db.length;
   };
-  return create;
+  api.push(create);
+  console.log("contents of api:");
+  console.log(api);
+  return api;
 };
 const createInDb = init();
-console.log(createInDb("Hatem"));
-console.log(createInDb("Lubna"));
-console.log(createInDb("Adeeb"));
+const myElement = createInDb[0];
+console.log(myElement("Hatem"));
+console.log(createInDb[0]("Lubna"));
+console.log(createInDb[0]("Adeeb"));
