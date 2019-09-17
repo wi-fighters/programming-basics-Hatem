@@ -68,6 +68,7 @@ console.log(repeats("Hatem", 5));
 // Factors
 
 factor = arr => {
+  // using while loop
   let isFactor = true;
   let index = 0;
   while (index < arr.length - 1) {
@@ -78,9 +79,21 @@ factor = arr => {
   }
   return isFactor;
 };
+factor1 = arr1 => {
+  // using do-while loop
+  let isFactor = true;
+  let index = 0;
+  do {
+    let currentElement = arr1[index];
+    let nextElement = arr1[index + 1];
+    isFactor = nextElement % currentElement === 0;
+    ++index;
+  } while (index < arr1.length - 1);
+  return isFactor;
+};
 let arr = [2, 4, 6, 7, 12];
 let arr1 = [1, 2, 4, 8, 16, 32];
 console.log(`arr = ${arr}`);
 console.log(`arr1 = ${arr1}`);
 console.log(`isFactor for arr = ${factor(arr)}`);
-console.log(`isFactor for arr1 = ${factor(arr1)}`);
+console.log(`isFactor for arr1 = ${factor1(arr1)}`);
